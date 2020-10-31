@@ -16,5 +16,5 @@ Short listing:
   + 18V 5A Solar Panel Monocrystalline
 
 ## If you want to see more on the wiki, click below
-[Go to the wiki](https://github.com/LukasMert/Birbox_Owncloud_Python/wiki)
+https://github.com/LukasMert/Birbox_Owncloud_Python/wiki
 
