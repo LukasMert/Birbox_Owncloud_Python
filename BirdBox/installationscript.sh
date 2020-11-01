@@ -5,6 +5,9 @@ echo "*** Update en upgrade ***"
 sudo apt-get update
 sudo apt-get upgrade -y
 
+#Make directory /mnt/USBDrive
+sudo mkdir /mnt/USBDrive
+
 # Install python3
 sudo apt install python3-pip
 
@@ -27,6 +30,7 @@ sudo apt-get update
 sudo a2enmod rewrite
 
 # MariaDB
+echo "*** MariaDB ***"
 sudo apt-get install mariadb-server mariadb-client -y
 sudo service apache2 restart
 sudo systemctl enable apache2
